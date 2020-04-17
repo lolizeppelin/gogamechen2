@@ -9,7 +9,7 @@ from goperation.manager import common
 from gogamechen2.common import GAMESERVER
 
 
-class gogamechen2DBClient(GopDBClient, GopCdnClient):
+class Gogamechen2DBClient(GopDBClient, GopCdnClient):
 
     objfiles_path = '/gogamechen2/objfiles'
     objfile_path = '/gogamechen2/objfiles/%s'
